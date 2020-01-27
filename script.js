@@ -1,9 +1,16 @@
-let gradient = document.querySelector("#gradient");
-let color = document.querySelector("#color");
+let color = [
+  "red",
+  "blue",
+  "black",
+  "white",
+  "green",
+  "orange",
+  "brown",
+  "chartreuse"
+];
+let atd = document.querySelectorAll("td");
+let button = document.querySelectorAll("button");
 
-let color2 = document.querySelector("#color2");
-let button = document.querySelector("button");
-
-button.addEventListener("click", () => {
-  gradient.style;
-});
+button.onClick = () => {
+  for (let i = 0; i < atd.length; i++) {}
+};
